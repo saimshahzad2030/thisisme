@@ -8,19 +8,20 @@ import SypnsosisSection from "@/components/SypnosisSection/SypnsosisSection";
 
 export default function Home() {
   return (
-    <div
-      className="w-full flex flex-col items-center  bg-repeat-y bg-center relative"
-      style={{ backgroundImage: "url(/assets/bg.png)" }}
-    >
-      <div className="top-[100vh] absolute inset-0 bg-black opacity-80"></div>
-
+    <div className="w-full flex flex-col items-center ">
       <Navbar />
       <div className="bg-black w-full">
         <LandingSection />
       </div>
-      <SypnsosisSection />
-      <CastSection />
-      <PictureSection />
+      <div
+        className="w-full flex flex-col items-center  bg-repeat-y bg-center relative"
+        style={{ backgroundImage: "url(/assets/bg.png)" }}
+      >
+        <div className="top-0 absolute inset-0 bg-black opacity-80"></div>
+        <SypnsosisSection />
+        <CastSection />
+        <PictureSection />
+      </div>
     </div>
   );
 }

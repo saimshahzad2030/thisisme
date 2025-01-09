@@ -9,9 +9,6 @@ const SypnsosisSection = () => {
         className="relative flex flex-row items-center w-full min-h-[100vh] justify-evenly  "
         data-aos="fade-up"
       >
-        {/* Overlay */}
-
-        {/* Content */}
         <div className="relative z-10 flex flex-col md:flex-row items-center justify-evenly w-full">
           <img
             src="/assets/SectionImage.png"

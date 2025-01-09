@@ -3,7 +3,7 @@ import React from "react";
 
 const PictureSection = () => {
   return (
-    <div className="container px-auto w-full p-4 md:px-8">
+    <div className="container px-auto w-full p-4 md:px-8 overflow-y-hidden">
       <div
         className="relative flex flex-col items-center w-full min-h-[100vh]  pt-12  "
         data-aos="fade-up"

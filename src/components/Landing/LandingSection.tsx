@@ -9,10 +9,10 @@ const LandingSection = () => {
           src="/assets/logo-movie.png"
           alt="movie logo"
           className="w-4/12 h-auto"
-          data-aos="fade-up"
+          //   data-aos="fade-up"
         />
         <button
-          data-aos="fade-up"
+          //   data-aos="fade-up"
           className={`mt-3 font-semibold p-2 bg-black rounded-md border border-white text-white hover:bg-white hover:border-black hover:text-black transition-colors duration-300 ${lexend.className}`}
         >
           WATCH TRAILER
