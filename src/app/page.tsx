@@ -14,10 +14,10 @@ export default function Home() {
         <LandingSection />
       </div>
       <div
-        className="w-full flex flex-col items-center  bg-repeat-y bg-center relative"
+        className="top-[100vh] w-full flex flex-col items-center  bg-repeat-y bg-center relative"
         style={{ backgroundImage: "url(/assets/bg.png)" }}
       >
-        <div className="top-0 absolute inset-0 bg-black opacity-80"></div>
+        <div className="top-0 absolute inset-0 bg-black opacity-50"></div>
         <SypnsosisSection />
         <CastSection />
         <PictureSection />

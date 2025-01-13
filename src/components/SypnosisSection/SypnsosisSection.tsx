@@ -6,10 +6,10 @@ const SypnsosisSection = () => {
   return (
     <div className="container mx-auto w-full p-4 md:px-8">
       <div
-        className="relative flex flex-row items-center w-full min-h-[100vh] justify-evenly  "
+        className="relative flex flex-row items-center w-full min-h-[100vh] justify-evenly top-[0] "
         data-aos="fade-up"
       >
-        <div className="relative z-10 flex flex-col md:flex-row items-center justify-evenly w-full">
+        <div className=" top-0 absolute z-10 flex flex-col md:flex-row items-center justify-evenly w-full">
           <img
             src="/assets/SectionImage.png"
             alt="Section Image"
